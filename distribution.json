@@ -13,15 +13,15 @@
       "description": "test-server Running Minecraft 1.20.1 (Forge v47.2.0)",
       "icon": null,
       "version": "1.0.0",
-      "address": "play.mysticred.space",
+      "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.0",
